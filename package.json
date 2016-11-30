@@ -1,0 +1,26 @@
+{
+  "name": "parking_buddy",
+  "version": "1.0.0",
+  "description": "app that will help users correspond with users when they are  too close to a driveway or another person's car",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giants415/MEAN_parking.git"
+  },
+  "author": "Andrew Vinocur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giants415/MEAN_parking/issues"
+  },
+  "homepage": "https://github.com/giants415/MEAN_parking#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "nodemon": "^1.11.0"
+  }
+}
